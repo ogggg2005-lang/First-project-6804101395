@@ -18,7 +18,7 @@
       label-color="orange"
       outlined
       v-model="text"
-      label="Label"
+      label="ชื่อสีเขียว"
     >
       <template v-slot:append>
         <q-icon name="event" color="orange" />
@@ -30,7 +30,7 @@
       bg-color="green"
       filled
       v-model="text"
-      label="Label"
+      label="นามสกุลสีม่วง"
     >
       <template v-slot:prepend>
         <q-icon name="event" />
